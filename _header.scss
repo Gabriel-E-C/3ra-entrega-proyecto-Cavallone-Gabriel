@@ -8,7 +8,7 @@
 
 header{
     @include tamaños(195px, 100%);
-    background-image: url(imagenes/laboratorio\ header\ 1.jpg);
+    background-image: url("imagenes/laboratorio\ header\ 1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     // height: 195px;

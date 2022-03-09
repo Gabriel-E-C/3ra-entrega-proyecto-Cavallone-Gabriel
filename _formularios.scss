@@ -21,6 +21,11 @@
     background-color: map-get($map: $colores, $key: color3);
 }
 
+#checkForm {
+    display: block;
+    margin: 0 auto;
+}
+
 #logInFormulario {
     @extend .formularioGeneral;
     height: 200px;
@@ -35,7 +40,10 @@
     text-decoration: underline;
 }
 
-
+.estudiosLabels {
+    @extend .formularioLabels;
+    text-transform: none;
+}
 // #olvidoPassTitulo {
 //     display: flex;
 //     height: 25vh;
@@ -76,6 +84,52 @@
     width: 19vw;
     /*border: 5px solid blueviolet;*/
 }
+
+#contactoTitulo {
+    height: 15vh;
+}
+
+#contactoFormulario {
+    height: 90vh;
+    width: 20vw;
+}
+
+#domicilioTitulo {
+    height: 15vh;
+}
+
+#domicilioFormulario {
+    height: 100vh;
+    width: 30vw;
+}
+
+#turnoFormulario {
+    height: 90vh;
+    width: 20vw;
+}
+
+#presupuestoTitulo {
+    height: 15vh;
+}
+#presupuestoFormulario {
+    height: 80vh;
+    width: 20vw;
+}
+
+#muestraFormulario {
+    height: 80vh;
+    width: 20vw;
+}
+
+#muestraTitulo {
+    height: 15vh;
+}
+
+textarea {
+    resize: none;
+}
+
+// .botones {}
 
 // .registroLabel {
 //     text-transform: capitalize;

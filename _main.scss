@@ -34,6 +34,18 @@ main {
     }
 }
 
+#domicilioMain{
+    height: 140vh;
+}
+
+#presupuestoMain {
+    height: 115vh;
+}
+
+#muestraMain {
+    height: 115vh;
+}
+
 @media only screen and (max-width: 930px) {
     main {
         grid-template-columns: repeat(2, 1fr);
